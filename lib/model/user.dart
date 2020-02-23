@@ -13,6 +13,9 @@ class _User {
   @Column()
   String password; // Encrypt this later
 
+  @Column()
+  String role;
+
 }
 
 class User extends ManagedObject<_User> implements _User {}
