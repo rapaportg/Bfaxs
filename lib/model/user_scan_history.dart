@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:bfaxs/bfaxs.dart';
 
 class _UserScanHistory {
@@ -35,6 +33,4 @@ class _UserScanHistory {
 
 }
 
-class UserScanHistory extends ManagedObject<_UserScanHistory> implements _UserScanHistory{
-   
-} 
+class UserScanHistory extends ManagedObject<_UserScanHistory> implements _UserScanHistory{} 

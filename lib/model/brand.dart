@@ -17,7 +17,4 @@ class _Brand {
   String lisenceNum;
 }
 
-class Brand extends ManagedObject<_Brand> implements _Brand {
-  @Serialize()
-  String get details => '$name - $state';
-}
+class Brand extends ManagedObject<_Brand> implements _Brand {}

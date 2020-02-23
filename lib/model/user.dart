@@ -14,3 +14,5 @@ class _User {
   String password; // Encrypt this later
 
 }
+
+class User extends ManagedObject<_User> implements _User {}
