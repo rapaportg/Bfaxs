@@ -1,1 +1,1 @@
-database: "postgres://bfax_admin:password@localhost:5432/bfaxs"
+database: $DATABASE_URL 

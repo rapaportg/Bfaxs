@@ -2,6 +2,7 @@ import 'package:bfaxs/controller/product_controller.dart';
 import 'package:bfaxs/controller/batch_controller.dart';
 import 'package:bfaxs/controller/user_controller.dart';
 import 'package:bfaxs/controller/brand_controller.dart';
+import 'package:bfaxs/controller/user_scan_history_controller.dart';
 
 import 'bfaxs.dart';
 
@@ -39,6 +40,7 @@ class BfaxsChannel extends ApplicationChannel {
     router.route('/batch/[:id]').link(() =>  BatchController(context));
     router.route('/user/[:id]').link(() => UserController(context));
     router.route('/brand/[:id]').link(() => BrandController(context));
+    router.route('/userscanhistory/[:id]').link(() => UserScanHistoryController(context));
           
     return router;
   }
